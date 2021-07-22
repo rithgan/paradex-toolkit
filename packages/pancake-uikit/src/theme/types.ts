@@ -60,6 +60,7 @@ export type Colors = {
   textDisabled: string;
   textSubtle: string;
   disabled: string;
+  iconSubtle?: string;
 
   // Gradients
   gradients: Gradients;
