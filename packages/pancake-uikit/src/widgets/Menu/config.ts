@@ -207,6 +207,16 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/pancakeswap",
   },
+  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/pancakeswap",
+  },
+  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/pancakeswap",
+  },
 ];
 
 export const MENU_HEIGHT = 64;
