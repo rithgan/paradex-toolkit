@@ -12,7 +12,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   return (
     <>
       <img height="30px" width="30px" alt="" src="https://paradex.finance/assets/img/logoPARADEX.png" />
-      <h2 style={{ color: "white" }}>PARADEX</h2>
+      <h2 style={{ color: "white" }} {...props}>PARADEX</h2>
     </>
     // <Svg viewBox="0 0 160 26" {...props}>
     //   <path
