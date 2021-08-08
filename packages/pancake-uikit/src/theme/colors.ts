@@ -33,7 +33,7 @@ export const darkColors: Colors = {
   tertiary: "#353547",
   text: "#F4EEFF",
   textDisabled: "#666171",
-  textSubtle: "#f2f2f2",
+  textSubtle: "#f1f1f1",
   iconSubtle: "#1F02AF",
   disabled: "#524B63",
   gradients: {
