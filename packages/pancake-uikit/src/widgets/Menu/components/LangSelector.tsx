@@ -14,9 +14,9 @@ interface Props {
 
 const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
   <Dropdown
-    position="top-right"
+    position="bottom"
     target={
-      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+      <Button style={{height:"32px"}} variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px"/>}>
         <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
       </Button>
     }

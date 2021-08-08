@@ -124,7 +124,10 @@ const Menu: React.FC<NavProps> = ({
         />
         {!!login && !!logout && (
           <Flex>
-            <UserBlock account={account} login={login} logout={logout} />
+            <UserBlock account={account} login={login} logout={logout} 
+            langs={langs}
+            setLang={setLang}
+            currentLang={currentLang} />
             {profile && <Avatar profile={profile} />}
           </Flex>
         )}
