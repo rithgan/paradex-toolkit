@@ -18,10 +18,10 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#9A6AFF",
-  background: "#0C1A33", // page color
+  background: "#141b2d", // page color
   backgroundDisabled: "#3c3742",
   // backgroundAlt: "#27262c", // menu color
-  backgroundAlt: "#040A19",
+  backgroundAlt: "#1f2a40",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
@@ -33,8 +33,8 @@ export const darkColors: Colors = {
   tertiary: "#353547",
   text: "#F4EEFF",
   textDisabled: "#666171",
-  textSubtle: "#f1f1f1",
-  iconSubtle: "#1F02AF",
+  textSubtle: "#fff",
+  iconSubtle: "#1f02af",
   disabled: "#524B63",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
